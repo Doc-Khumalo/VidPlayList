@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "homepage": "https://doc-khumalo.github.io/VidPlayList/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack -d && cp src/app/index.html dist/index.html && webpack-dev-server --hot --inline --colors --progress --content-base src/",
@@ -12,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^0.17.0",
+    "gh-pages": "^1.0.0",
     "history": "^4.7.2",
     "json-loader": "^0.5.7",
     "react": "^15.6.1",
