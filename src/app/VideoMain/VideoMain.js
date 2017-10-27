@@ -28,10 +28,12 @@ class VideoMain extends React.Component {
                 </div>
                 <div className="row block-wrapper">
                     <div className="col-md-6 col-lg-6">
-                        <iframe className="video-wrapper" width="420" height="390"
-                            src={`https://www.youtube.com/embed/${videoId}`}
-                            frameborder="0">
-                        </iframe>
+                        <div className="video-wrapper">
+                            <iframe width="560" height="349"
+                                src={`https://www.youtube.com/embed/${videoId}`}
+                                frameborder="0">
+                            </iframe>
+                        </div>
                     </div>
                     <div className="col-md-6 col-lg-6">
                         <p className="video-decsription">{video.snippet.description}</p>
